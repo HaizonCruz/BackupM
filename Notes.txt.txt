@@ -1,0 +1,78 @@
+Create react app : npx create-react-app app_name
+Run the app : npm start
+To stop the project : Press Ctrl+C.
+In windows to get code snippets : Ctrl+Alt+R
+
+The files in a project
+    1. .git : already initialized with git
+    2. node modules contains all the dependencies. Included in .gitignofa-rotate-180
+    3. public folder :
+        a. icons and logos
+        b. index.html : The only html page.
+    4. src folder : Source folder
+
+
+Chapter-2
+
+App component is the default component created by react app.
+We are importing this app component into the index.js file which renders it.
+
+JSX provides a component template layout.
+
+To use javascript expression inside JSX use it inside {}
+To use html inside JSX just type it.
+
+boolean and objects will not render raw like this into the page.
+
+
+
+we can create variables/ functions outside of return and use it inside
+the html using jsx.
+
+
+
+
+Chapter - 3 : Functional components
+
+As we can see we are writing a header tag inside of our app component.
+What if we want to use the same header component in some other pages. 
+
+So let us create it as a separate component by creating Header.js.
+
+̥Now do the code inside jsx of Header.js and import it back to app.js
+
+
+Similarly we can create a Content component and a footer component.
+
+
+
+
+
+Chapter-4 : How to apply styles to react components.
+
+There are several ways to apply styles. The first and most preferred way is to use a stylesheet
+
+OR npm i styled-components --save.
+OR inline style using : style = {{style property : "value"}}
+
+
+
+
+
+
+Chapter-5 : click events
+
+Click event on button executes a function.
+
+
+
+
+
+Chapter-6 : Hooks : UseState
+
+    1. Import useState : import {useState} from 'react';
+    2. The define the variable : const [variable_name, function_name] = useState();
+
+
+
+Chapter-7 : Lists and Hooks
